@@ -32,6 +32,7 @@ async function PostsPage() {
         <h1 style={{ marginTop: "20px" }}>Posts</h1>
         {posts.map((post) => (
           <div
+            key={post.id}
             style={{
               marginTop: "20px",
               background: "#fff",
